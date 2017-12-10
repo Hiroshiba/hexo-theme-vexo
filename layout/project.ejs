@@ -1,6 +1,5 @@
 <div id="article-banner">
   <h2>Projects</h2>
-  <p class="post-date">开源项目</p>
 </div>
 <main class="app-body project-app">
   <div class="card-container" id="all-project"></div>
@@ -26,7 +25,7 @@
             description = description.slice(0, 72) + '...'
           }
           return (
-            '<section class="project-card">' + 
+            '<section class="project-card">' +
               '<a class="card-wrap" href="'+ item.html_url +'" target="_blank">' +
                 '<div class="card-header" data-name="'+ item.name +'"></div>' +
                 '<h3 class="card-title">' + item.name + '</h3>' +

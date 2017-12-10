@@ -74,8 +74,6 @@
       $('#article-banner').css({
         'background-image': 'url(' + banner + ')'
       })
-    } else {
-      $('#article-banner').geopattern(url)
     }
     $('.header').removeClass('fixed-header')
 
@@ -93,7 +91,7 @@
       if (src !== 'http://file.muyutech.com/error-img.png') {
         var imageW = $(this).width()
         var imageH = $(this).height()
-        
+
         var zoom = ($(window).width() * 0.95 / imageW).toFixed(2)
         zoom = zoom < 1 ? 1 : zoom
         zoom = zoom > 2 ? 2 : zoom
