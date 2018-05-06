@@ -52,3 +52,9 @@ about:
   github_username: Hiroshiba
   zhihu_username:
   douban_username:
+
+# MathJax Support
+mathjax:
+  enable: true
+  per_page: false
+  cdn: //cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML
