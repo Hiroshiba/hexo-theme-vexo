@@ -43,6 +43,8 @@ qrcode: false
 
 # baidu_id:
 
+google_analytics: UA-141253083-1
+
 about:
   banner:
   avatar: https://avatars.githubusercontent.com/Hiroshiba
