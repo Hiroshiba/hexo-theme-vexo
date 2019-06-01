@@ -1,7 +1,7 @@
 author: Kazuyuki Hiroshiba
 description: Hiroshibaのブログです。
 keyword:
-favicon: images/favicon.png
+favicon: /images/favicon.png
 banner: images/banner.png
 
 excerpt_link: Read More
