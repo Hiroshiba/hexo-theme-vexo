@@ -1,4 +1,4 @@
-# Vexo = Vue.js Style + Hexo 
+# Vexo = Vue.js Style + Hexo
 
 > Vexo is a Hexo theme inspired by [Vue.js](https://cn.vuejs.org) official website.
 
@@ -17,10 +17,6 @@
 ## Features
 
 * Fully Responsive
-* Baidu Analytics
-* [Youyan](http://www.uyan.cc/)
-* [Gitment](https://imsun.github.io/gitment/)
-* Share Qrcode
 * SEO
 * Immersive Status Bar
 * Article Catalog
@@ -71,76 +67,7 @@ tags:
 ---
 ```
 
-Add this to the top of your article markdown file. 
-
-## Change Log  
-**2017-09-21**
-* Added article catalog
-* Fixed bugs
-
-**2017-08-08**
-* Added article custom banner
-* Fixed gitment error
-
-**2017-06-27** 
-* Added image-zoom
-* Added project-link
-
-**2017-06-25**
-* Added image load `onerror` replace default image
-* Added page [loading-bar](https://github.com/rstacruz/nprogress)
-* Fixed bugs
-
-**2017-06-23** 
-* Added project page to show github project
-* Fixed share url error
-* Support markdown `table` & `hr`
-
-**2017-06-20**  
-* Added personal link icons, support: 
-  * github 
-  * zhihu 
-  * twitter 
-  * weibo
-* Fixed bugs
-
-**2017-06-15**  
-* Add personal about page
-* Replace font-family
-* Ignore text-autosizer/font-boosting on mobile-device
-* Fixed bugs
-
-**2017-06-12**  
-* Added enter-out transition
-* Fixed bugs
-
-**2017-06-11**
-* Added archive page
-* Fixed HighLight code line-number bug
-* Adjust home post display problem
-* Thanks @ky0ncheng issue
-
-## Comment
-
-Vexo use [Gitment](https://github.com/imsun/gitment) as the third party discussion system.
-
-You can easily complete your comment configuration by just adding your settings into `_config.yml`
-
-```
-# Gitment
-gitment_owner: yanm1ng
-gitment_repo: yanm1ng.github.io
-gitment_oauth_id: 
-gitment_oauth_secret: 
-```
-
-How to use Gitment ? [See](https://imsun.github.io/gitment/)
-
-## Reward
-
-You can replace your own Alipay/Wechat qrcode in `themes/source/css/images` 
-
-Here the name must same as `alipay.jpg` or `wechat.jpg`.
+Add this to the top of your article markdown file.
 
 ## Links
 

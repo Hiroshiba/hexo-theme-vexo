@@ -18,27 +18,6 @@ menu:
 # catalog
 catalog: false
 
-# donate
-donate: false
-
-# qrcode
-qrcode: false
-
-# comment
-# you can set gitment or uyan
-
-# comment:
-
-# gitment_owner:
-# gitment_repo:
-# gitment_oauth_id:
-# gitment_oauth_secret:
-
-# uyan
-# if you want to use uyan as your blog comment, plz remove/comment out gitment config
-
-# baidu_id:
-
 google_analytics: UA-141253083-1
 
 about:
