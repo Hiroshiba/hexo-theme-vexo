@@ -12,14 +12,8 @@
   <%- open_graph({
     twitter_id: theme.about.twitter_username
   }) %>
-  <link href="//cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-  <link href="//cdn.bootcss.com/nprogress/0.2.0/nprogress.min.css" rel="stylesheet">
-  <link href="//cdn.bootcss.com/highlight.js/9.12.0/styles/<%= theme.highlight %>.min.css" rel="stylesheet">
-  <%- css(['css/style', 'css/plugins/gitment.css']) %>
-  <%- js('js/jquery-3.4.1.min.js') %>
-  <script src="//cdn.bootcss.com/geopattern/1.2.3/js/geopattern.min.js"></script>
-  <script src="//cdn.bootcss.com/nprogress/0.2.0/nprogress.min.js"></script>
-  <%- js(['js/qrious', 'js/gitment']) %>
+  <%- css(['css/style', 'css/plugins/gitment', 'css/plugins/font-awesome-4.7.0.min', 'css/plugins/highlight.js-9.12.0.min', 'css/plugins/nprogress-0.2.0.min']) %>
+  <%- js(['js/jquery-3.4.1.min', 'js/geopattern-1.2.3.min', 'js/nprogress-0.2.0.min', 'js/qrious', 'js/gitment']) %>
   <%- partial('_third-party/google-analytics') %>
   <%- partial('_third-party/mathjax') %>
 </head>
