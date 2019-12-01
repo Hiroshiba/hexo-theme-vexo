@@ -10,7 +10,8 @@
   <% } %>
   <title><% if (page.title){ %><%= page.title %> | <%= config.title %><% } else { %><%= config.title %><% } %></title>
   <%- open_graph({
-    twitter_id: theme.about.twitter_username
+    twitter_id: theme.about.twitter_username,
+    twitter_card: "summary_large_image"
   }) %>
   <%- css(['css/style', 'css/plugins/font-awesome-4.7.0.min', 'css/plugins/highlight.js-9.12.0.min', 'css/plugins/nprogress-0.2.0.min']) %>
   <%- js(['js/jquery-3.4.1.min', 'js/geopattern-1.2.3.min', 'js/nprogress-0.2.0.min']) %>
