@@ -23,12 +23,13 @@ google_analytics: UA-141253083-1
 about:
   banner:
   avatar: https://avatars.githubusercontent.com/Hiroshiba
-  description: 東京で働くプログラマ。
+  description: 東京で働くシステムエンジニア。
   weibo_username:
   twitter_username: hiho_karuta
   github_username: Hiroshiba
   zhihu_username:
   douban_username:
+  linkedin_username:
 
 # MathJax Support
 mathjax:

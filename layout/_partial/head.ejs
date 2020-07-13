@@ -13,8 +13,13 @@
     twitter_id: theme.about.twitter_username,
     twitter_card: "summary_large_image"
   }) %>
-  <%- css(['css/style', 'css/plugins/font-awesome-4.7.0.min', 'css/plugins/highlight.js-9.12.0.min', 'css/plugins/nprogress-0.2.0.min']) %>
-  <%- js(['js/jquery-3.4.1.min', 'js/geopattern-1.2.3.min', 'js/nprogress-0.2.0.min']) %>
-  <%- partial('_third-party/google-analytics') %>
+  <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href="//cdnjs.cloudflare.com/ajax/libs/nprogress/0.2.0/nprogress.min.css" rel="stylesheet">
+  <link href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/tomorrow.min.css" rel="stylesheet">
+  <%- css('css/style') %>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/geopattern/1.2.3/js/geopattern.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/nprogress/0.2.0/nprogress.min.js"></script>
   <%- partial('_third-party/mathjax') %>
+  <%- partial('_third-party/google_analytics') %>
 </head>
